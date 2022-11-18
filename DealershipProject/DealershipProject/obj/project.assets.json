@@ -9842,19 +9842,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Victor.Irimies\\.nuget\\packages\\": {}
+    "C:\\Users\\Leuri.Alonso\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\DealershipProject\\DealershipProject\\DealershipProject\\DealershipProject.csproj",
+      "projectUniqueName": "C:\\solera\\repos\\Dealership\\DealershipProject\\DealershipProject\\DealershipProject.csproj",
       "projectName": "DealershipProject",
-      "projectPath": "C:\\Repos\\DealershipProject\\DealershipProject\\DealershipProject\\DealershipProject.csproj",
-      "packagesPath": "C:\\Users\\Victor.Irimies\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\DealershipProject\\DealershipProject\\DealershipProject\\obj\\",
+      "projectPath": "C:\\solera\\repos\\Dealership\\DealershipProject\\DealershipProject\\DealershipProject.csproj",
+      "packagesPath": "C:\\Users\\Leuri.Alonso\\.nuget\\packages\\",
+      "outputPath": "C:\\solera\\repos\\Dealership\\DealershipProject\\DealershipProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Victor.Irimies\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leuri.Alonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

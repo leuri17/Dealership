@@ -20,5 +20,4 @@ create table Claims (
     Status varchar(25) not null,
     Date Date not null,
     Vehicle_Id uuid not null references Vehicles(Id)
-)
-
+);
