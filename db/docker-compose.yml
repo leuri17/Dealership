@@ -1,0 +1,15 @@
+version: "3"
+services:
+  db:
+    container_name: dealership
+    image: postgres
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=dealership
+    ports:
+      - "5432:5432"
+    volumes:
+      - dealership_data:/var/lib/postgresql/data
+volumes:
+  dealership_data:

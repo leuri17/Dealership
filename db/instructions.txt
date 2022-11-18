@@ -1,0 +1,16 @@
+1. Install docker desktop + docker-compose CLI
+2. Run the following command:
+
+docker-compose up -d
+
+This will create one container, a persistent volume for the database service, install postgres image, and expose
+the database services in different ports.
+
+ DEALERSHIP SERVICE'S DATABASE
+    Name: dealership
+    Container name: dealership
+    Exposed port: 5432
+    API User: root
+    API Password: root
+
+3. Connect to dealership database using the previous credentials through your favorite SQL client.
