@@ -17,8 +17,8 @@ namespace DealershipProject.Helpers
             options.UseNpgsql(Configuration.GetConnectionString("dealershipDatabase"));
         }
 
-        //public DbSet<Owners> Users { get; set; }
-        //public DbSet<Vehicles> Users { get; set; }
-        //public DbSet<Claims> Users { get; set; }
+        //public DbSet<Owners> Owners { get; set; }
+        //public DbSet<Vehicles> Vehicles { get; set; }
+        //public DbSet<Claims> Claims { get; set; }
     }
 }
