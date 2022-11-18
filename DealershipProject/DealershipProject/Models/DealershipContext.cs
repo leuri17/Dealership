@@ -34,7 +34,7 @@ public partial class DealershipContext : DbContext
             entity.ToTable("claims");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.Date).HasColumnName("date");
             entity.Property(e => e.Description)
@@ -58,7 +58,7 @@ public partial class DealershipContext : DbContext
             entity.ToTable("owners");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.Driverlicense)
                 .HasMaxLength(20)
@@ -78,7 +78,7 @@ public partial class DealershipContext : DbContext
             entity.ToTable("vehicles");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.Brand)
                 .HasMaxLength(25)
